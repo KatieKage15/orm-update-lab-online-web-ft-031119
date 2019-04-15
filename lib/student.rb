@@ -68,8 +68,8 @@ class Student
     end.first
   end
 
-  def update 
-    sql = <<-SQL 
+  def update
+    sql = <<-SQL
       INSERT INTO students(name, grade)
       VALUES (?, ?)
     SQL
